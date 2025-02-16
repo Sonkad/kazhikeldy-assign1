@@ -12,5 +12,9 @@ public class Main {
 
         Engine engine = context.getBean(Engine.class);
         engine.start();
+
+        Library library = context.getBean(Library.class);
+        System.out.println("Library contains the Car: " + library.getCar().getModel());
+
     }
 }

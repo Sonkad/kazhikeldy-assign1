@@ -17,4 +17,10 @@ public class ProjectConfig {
     public Engine engine() {
         return new Engine();
     }
+
+    @Bean
+    public Library library() {
+        return new Library();
+    }
+
 }
